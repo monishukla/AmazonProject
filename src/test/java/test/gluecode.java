@@ -42,6 +42,19 @@ public class gluecode {
    
     driver.manage().window().maximize();
     cin = new CreateInstance();
+    
+    /*this.s=x;
+		pro = new Properties();
+		FileInputStream fip = new FileInputStream("D:\\TestAutomation\\CompetencyModule\\src\\test\\java\\test\\Properties.properties");
+		pro.load(fip);
+		String path = System.getProperty("user.dir");
+		String driverpath = path + "\\src\\test\\java\\chromedriver\\chromedriver_win32 (5)\\chromedriver.exe";
+		System.setProperty("webdriver.chrome.driver",driverpath );	
+		driver = new ChromeDriver();
+		//lp = new Loginpage(driver);
+		
+		driver.manage().window().maximize();
+		cin = new CreateInstance();*/
 	
 }
 
